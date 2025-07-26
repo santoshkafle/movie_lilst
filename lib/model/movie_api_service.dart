@@ -1,5 +1,4 @@
 import 'dart:convert';
-
 import 'package:movie_list/model/movie_model.dart';
 import 'package:http/http.dart' as http;
 
@@ -13,7 +12,7 @@ class MovieApiService {
     if (respone.statusCode == 200) {
       return data.map((e) => MovieModel.fromMap(e)).toList();
     } else {
-      throw Exception("Failed to Load Movie List");
+      return [];
     }
   }
 
@@ -25,7 +24,7 @@ class MovieApiService {
       var movieDate = data.map((e) => MovieModel.fromMap(e)).toList();
       return movieDate.where((e) => (e.rating?.average ?? 0) > 8.5).toList();
     } else {
-      throw Exception("Failed to Load Movie List");
+      return [];
     }
   }
 }

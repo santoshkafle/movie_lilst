@@ -1,16 +1,15 @@
-# movie_list
+# Movie List
 
-A new Flutter project.
+Movie listing flutter project for practice and demonstration purposes.  
+This project was created to learn and practice basic app development concepts like API integration, UI design, and working with lists.
 
-## Getting Started
+## What it does
 
-This project is a starting point for a Flutter application.
+- 📋 Fetches a list of shows from the [TVmaze API](https://www.tvmaze.com/api)
+- 📂 Displays basic show details: title, summary, image
+- 🔍 Simple UI to scroll through shows
+- ✅ Good example of API calls, JSON parsing, and displaying dynamic data
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+| ![Home](screenshot1.jpg) | ![Details](screenshot2.jpg) |

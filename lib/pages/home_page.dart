@@ -51,6 +51,7 @@ class HomePage extends StatelessWidget {
                           context.watch<FilterMovieProvider>().getTopMovieList;
                       return InkWell(
                         onTap: () {
+                          //navigate to movide details page..... here... [ top movie list]
                           context.read<FilterMovieProvider>().setMovieIdex(
                             index,
                           );
@@ -134,6 +135,7 @@ class HomePage extends StatelessWidget {
                               .getAllMovieList[index];
                       return InkWell(
                         onTap: () {
+                          //navigate to movide details page..... here... [ all movie list]
                           context.read<FilterMovieProvider>().setMovieIdex(
                             index,
                           );

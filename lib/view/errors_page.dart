@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:movie_list/loading_page.dart';
 
 class ErrorsPage extends StatelessWidget {
   const ErrorsPage({super.key});
